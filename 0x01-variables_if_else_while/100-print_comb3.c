@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - prints all possible different combinations of two digits
- * Return: Always 0 
+ * main - prints all possible different combinations of two digits.
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,8 +14,8 @@ int main(void)
 
 	for (d = '0'; d < '9'; d++)
 	{
-	
-	for (p = d +1; p <= '9'; p++)
+
+	for (p = d + 1; p <= '9'; p++)
 	{
 	if (p != d)
 	{
