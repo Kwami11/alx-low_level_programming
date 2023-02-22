@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_times_table - afficher the times table for n.
  * @n: table de multiplication.
  * Return: Nothing.
  */
-
 void print_times_table(int n)
 {
 	int i, j, res;
@@ -24,7 +22,7 @@ void print_times_table(int n)
 	}
 	if (res < 10 && j != 0)
 	{
-	_putchar(',');
+	_putchar(' ');
 	_putchar(' ');
 	_putchar((res % 10) + '0');
 	}
